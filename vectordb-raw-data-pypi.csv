@@ -1,0 +1,7 @@
+date,downloads,project,package
+2024-01-08,1403470,pgvector,pgvector
+2024-01-08,2769345,milvus,pymilvus
+2024-01-08,1672815,qdrant,qdrant-client
+2024-01-08,4614132,chromadb,chromadb
+2024-01-08,4688508,pinecone,pinecone-client
+2024-01-08,3258984,weaviate,weaviate-client
