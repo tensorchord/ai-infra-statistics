@@ -57,6 +57,25 @@ st.title("AI Infrastructure Statistics")
 st.markdown(
     """
 This app shows the statistics of AI infrastructure projects. GitHub repo: [tensorchord/ai-infra-statistics](https://github.com/tensorchord/ai-infra-statistics)
+
+## What is this?
+
+This repository contains statistics about the AI Infrastructure community. We collect statistics about the most popular AI Infrastructure projects. We use these statistics to track the growth of the community. This is a work in progress. If you have any suggestions, please open an issue or a pull request.
+
+Currently, we are collecting the following statistics:
+
+- PyPI downloads
+- DockerHub pulls
+
+More details about the data collection can be found in the [README](https://github.com/tensorchord/ai-infra-statistics)
+
+## Why don't you collect statistics about X?
+
+We are happy to collect statistics about other AI Infrastructure projects. Please open an [issue or a pull request](https://github.com/tensorchord/ai-infra-statistics).
+
+## Why don't you collect GitHub stars?
+
+First, there are many products that are not open source. Second, GitHub stars are not a good indicator of popularity. Please let us know if you have any suggestions for other metrics.
 """
 )
 
@@ -90,4 +109,23 @@ The data is fetched from [pypistats](https://pypistats.org/).
 )
 
 data = load_data("vectordb-raw-data-pypi.csv")
+st.line_chart(data, x="date", y="downloads", color="project")
+
+st.markdown(
+    """
+## Inference
+"""
+)
+
+# PyPI downloads
+
+st.markdown(
+    """
+### PyPI Downloads (4 months total)
+
+The data is fetched from [pypistats](https://pypistats.org/).
+"""
+)
+
+data = load_data("inference-raw-data-pypi.csv")
 st.line_chart(data, x="date", y="downloads", color="project")
