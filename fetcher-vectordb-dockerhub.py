@@ -3,8 +3,8 @@ from datetime import date
 
 url = "https://hub.docker.com/v2/repositories/{0}/{1}"
 
-images = ["tensorchord/pgvecto-rs", "milvusdb/milvus", "qdrant/qdrant", "chromadb/chroma", "semitechnologies/weaviate"]
-unified_names = ["pgvecto.rs", "milvus", "qdrant", "chromadb", "pinecone", "weaviate"]
+images = ["ankane/pgvector", "tensorchord/pgvecto-rs", "milvusdb/milvus", "qdrant/qdrant", "chromadb/chroma", "semitechnologies/weaviate"]
+unified_names = ["pgvector", "pgvecto.rs", "milvus", "qdrant", "chromadb", "pinecone", "weaviate"]
 
 with open("vectordb-raw-data-dockerhub.csv", "a") as f:
     for i, image in enumerate(images):

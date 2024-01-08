@@ -1,9 +1,11 @@
-date,downloads  ,project,image
-2024-01-08,187377,pgvecto.rs,tensorchord/pgvecto-rs
-2024-01-08,10165608,milvus,milvusdb/milvus
-2024-01-08,4999231,qdrant,qdrant/qdrant
-2024-01-08,53707,chromadb,chromadb/chroma
-2024-01-08,2925009,pinecone,semitechnologies/weaviate
+date,downloads,project,image
+2024-01-08,1524897,pgvector,ankane/pgvector
+2024-01-08,188078,pgvecto.rs,tensorchord/pgvecto-rs
+2024-01-08,10165857,milvus,milvusdb/milvus
+2024-01-08,5000110,qdrant,qdrant/qdrant
+2024-01-08,53743,chromadb,chromadb/chroma
+2024-01-08,2925405,pinecone,semitechnologies/weaviate
+2024-01-08,1524897,pgvector,ankane/pgvector
 2024-01-12,187377,pgvecto.rs,tensorchord/pgvecto-rs
 2024-01-12,10165608,milvus,milvusdb/milvus
 2024-01-12,4999231,qdrant,qdrant/qdrant
