@@ -113,7 +113,46 @@ st.line_chart(data, x="date", y="downloads", color="project")
 
 st.markdown(
     """
-## Inference
+## LLM Orchestration Framework
+"""
+)
+
+# PyPI downloads
+
+st.markdown(
+    """
+### PyPI Downloads (4 months total)
+
+The data is fetched from [pypistats](https://pypistats.org/).
+"""
+)
+
+data = load_data("framework-llm-raw-data-pypi.csv")
+st.line_chart(data, x="date", y="downloads", color="project")
+
+
+st.markdown(
+    """
+## LLM Inference Framework
+"""
+)
+
+# PyPI downloads
+
+st.markdown(
+    """
+### PyPI Downloads (4 months total)
+
+The data is fetched from [pypistats](https://pypistats.org/).
+"""
+)
+
+data = load_data("framework-inference-raw-data-pypi.csv")
+st.line_chart(data, x="date", y="downloads", color="project")
+
+st.markdown(
+    """
+## Inference as a Service
 """
 )
 
@@ -128,4 +167,23 @@ The data is fetched from [pypistats](https://pypistats.org/).
 )
 
 data = load_data("inference-raw-data-pypi.csv")
+st.line_chart(data, x="date", y="downloads", color="project")
+
+st.markdown(
+    """
+## Inference (Local)
+"""
+)
+
+# PyPI downloads
+
+st.markdown(
+    """
+### PyPI Downloads (4 months total)
+
+The data is fetched from [pypistats](https://pypistats.org/).
+"""
+)
+
+data = load_data("inference-local-raw-data-pypi.csv")
 st.line_chart(data, x="date", y="downloads", color="project")
