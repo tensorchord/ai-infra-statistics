@@ -5,9 +5,9 @@ date,downloads,project,package
 2024-01-08,4614132,chromadb,chromadb
 2024-01-08,4688508,pinecone,pinecone-client
 2024-01-08,3258984,weaviate,weaviate-client
-2024-01-12,1403470,pgvector,pgvector
-2024-01-12,2769345,milvus,pymilvus
-2024-01-12,1672815,qdrant,qdrant-client
-2024-01-12,4614132,chromadb,chromadb
-2024-01-12,4688508,pinecone,pinecone-client
-2024-01-12,3258984,weaviate,weaviate-client
+2024-01-09,1416334,pgvector,pgvector
+2024-01-09,2768119,milvus,pymilvus
+2024-01-09,1675906,qdrant,qdrant-client
+2024-01-09,4636195,chromadb,chromadb
+2024-01-09,4694642,pinecone,pinecone-client
+2024-01-09,3267749,weaviate,weaviate-client

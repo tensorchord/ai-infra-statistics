@@ -16,7 +16,7 @@ Currently, we are collecting the following statistics:
 
 Here is the online dashboard:
 
-https://ai-infra-statisticsgit-nuxwaw7accvhuheujqgwjk.streamlit.app/
+https://ai-infra-statistics.streamlit.app/
 
 ## Why don't you collect statistics about X?
 
