@@ -24,7 +24,7 @@ We are happy to collect statistics about other AI Infrastructure projects. Pleas
 
 ## Why don't you collect GitHub stars?
 
-GitHub stars are not a good indicator of popularity.
+First, there are many products that are not open source. Second, GitHub stars are not a good indicator of popularity. Please let us know if you have any suggestions for other metrics.
 
 ## How do you collect the statistics?
 
