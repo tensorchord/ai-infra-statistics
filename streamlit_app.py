@@ -56,7 +56,7 @@ st.title("AI Infrastructure Statistics")
 
 st.markdown(
     """
-This app shows the statistics of AI infrastructure projects. GitHub repo: [tensorchord/ai-infra-statistics](https://github.com/tensorchord/ai-infra-statistics)
+This app shows the statistics of AI infrastructure projects. You could find the source code of this app here: [tensorchord/ai-infra-statistics](https://github.com/tensorchord/ai-infra-statistics).
 
 ## What is this?
 
@@ -75,7 +75,9 @@ We are happy to collect statistics about other AI Infrastructure projects. Pleas
 
 ## Why don't you collect GitHub stars?
 
-First, there are many products that are not open source. Second, GitHub stars are not a good indicator of popularity. Please let us know if you have any suggestions for other metrics.
+Please checkout [star-history.com](https://star-history.com/) if you are interested in GitHub stars.
+
+We do not collect GitHub stars because we believe that GitHub stars are not a good metric for the growth of the community. Please let us know if you have any suggestions for other metrics.
 """
 )
 
