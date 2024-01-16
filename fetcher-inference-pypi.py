@@ -2,7 +2,7 @@ import pypistats
 from datetime import date
 
 
-projects = ["leptonai", "modal-client", "fireworks-ai", "banana-dev", "together"]
+projects = ["leptonai", "modal", "fireworks-ai", "banana-dev", "together"]
 unified_names = ["lepton.ai", "modal.com", "fireworks.ai", "banana.dev", "toghther.ai"]
 
 with open("inference-raw-data-pypi.csv", "a") as f:
