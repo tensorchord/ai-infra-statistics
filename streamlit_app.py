@@ -51,6 +51,45 @@ def load_data(path):
     return data
 
 
+@st.cache_data
+def load_data_d(path):
+    if not os.path.isfile(path):
+        path = f"https://github.com/tensorchord/ai-infra-statistics/raw/main/{path}"
+
+    data = pd.read_csv(
+        path,
+        nrows=100000,  # approx. 10% of data
+        names=[
+            "date",
+            "downloads",
+            "project",
+        ],  # specify names directly since they don't change
+        skiprows=1,  # don't read header since names specified directly
+        usecols=[0, 1, 2],  # doesn't load last column, constant value "B02512"
+        parse_dates=[
+            "date"
+        ],  # set as datetime instead of converting after the fact
+    )
+
+    # every row minus the first row
+    for i in range(7, len(data)):
+        print(i, i % 6)
+        print(data["project"][i])
+        print(data["project"][i % 6])
+        print(data["downloads"][i])
+        print(data["downloads"][i % 6])
+        data["downloads"][i] = data["downloads"][i] - data["downloads"][i % 6]
+    
+    # Remove the first 6 rows
+    data["downloads"][0] = 0
+    data["downloads"][1] = 0
+    data["downloads"][2] = 0
+    data["downloads"][3] = 0
+    data["downloads"][4] = 0
+    data["downloads"][5] = 0
+    data["downloads"][6] = 0
+    return data
+
 # STREAMLIT APP LAYOUT
 st.title("AI Infrastructure Statistics")
 
