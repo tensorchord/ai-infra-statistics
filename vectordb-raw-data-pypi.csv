@@ -263,3 +263,9 @@ date,downloads,project,package
 2024-04-11,6533037,chromadb,chromadb
 2024-04-11,5349779,pinecone,pinecone-client
 2024-04-11,4967955,weaviate,weaviate-client
+2024-04-18,2921627,pgvector,pgvector
+2024-04-18,3224500,milvus,pymilvus
+2024-04-18,2186715,qdrant,qdrant-client
+2024-04-18,6646958,chromadb,chromadb
+2024-04-18,5518542,pinecone,pinecone-client
+2024-04-18,5286851,weaviate,weaviate-client
