@@ -2,8 +2,8 @@ import pypistats
 from datetime import date
 
 
-projects = ["vllm", "bentoml", "mosec", "xinference", "openllm"]
-unified_names = ["vllm", "bentoml", "mosec", "xinference", "openllm"]
+projects = ["vllm", "bentoml", "mosec", "xinference", "openllm", "sglang"]
+unified_names = ["vllm", "bentoml", "mosec", "xinference", "openllm", "sglang"]
 
 with open("framework-inference-raw-data-pypi.csv", "a") as f:
     for i, project in enumerate(projects):
